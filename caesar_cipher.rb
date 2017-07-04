@@ -12,7 +12,7 @@ def caesar_cipher(to_crypt, num)
       when 48..57
         c += num.to_i
         if (c > 57)
-          c -= 9
+          c -= 10
         end
       when 65..90
         c += num.to_i
